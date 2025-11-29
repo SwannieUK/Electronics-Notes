@@ -1,0 +1,26 @@
+Removing from case
+- Glued side tabs
+- Remove mouthpiece by snapping
+- Remove sliders switch
+- Ease out towards screen
+- Pop off of screen and button
+- Remove microphone from base
+- Cut heating element wires
+- Remove from juice tank
+
+Internals
+- 3.7V 850mAh R17350D (17x35mm) - 3.15Wh
+- Microphone
+- CH6057 charge controller
+- USBC port
+- sliders switch
+- TM52F1376 MCU
+- Button
+- LCD
+- 3x heating elements
+
+USB
+- Not standard
+- SWDIO and SWCLK connected to pins
+- IO and CLK match with D and C on 4pin header VDCG
+- D and C match to pin 28 and 27 on MCU: optional UART SDA/SCL
