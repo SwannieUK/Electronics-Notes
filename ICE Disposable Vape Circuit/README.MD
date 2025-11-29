@@ -17,11 +17,23 @@ Internals
 - sliders switch - SP4T? - does not isolate usb or cell
 - TM52F1376 MCU
 - Button
-- 19 segment Colour LCD with back light
+- 19 segment LCD with back light
+  - TURBO x 1
+  - III x 3
+  - "ice" x 4
+  - "bars" x 1
+  - "battery" x 5
+  - "juice" x 5
 - 3x heating elements
+  - 2x in tank 1
+  - 1x in tank 2
+
+PCB
+- C3 is missing... Remove after programming?
 
 USB
 - Not standard
 - SWDIO and SWCLK connected to pins
 - IO and CLK match with D and C on 4pin header VDCG
-- D and C match to pin 28 and 27 on MCU: optional UART TXD/RXD
+- D and C match to pin 28 and 27 on MCU: likely PSDA and PSCL for vendor programmer, optional UART TXD/RXD
+  - Attempted to find I2C address on these pins, but doesn't appear to be found
