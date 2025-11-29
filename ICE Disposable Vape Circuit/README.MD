@@ -17,7 +17,7 @@ Internals
 - sliders switch - SP4T? - does not isolate usb or cell
 - TM52F1376 MCU
 - Button
-- Colour LCD with back light
+- 19 segment Colour LCD with back light
 - 3x heating elements
 
 USB
