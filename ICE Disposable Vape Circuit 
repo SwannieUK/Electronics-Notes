@@ -1,22 +1,23 @@
-Removing from case
-- Glued side tabs
-- Remove mouthpiece by snapping
-- Remove sliders switch
-- Ease out towards screen
-- Pop off of screen and button
-- Remove microphone from base
+Removing electronics from from case
+- Use a spudger to pop the glued side tabs, approx. the middle
+- Remove mouthpiece by snapping off
+- Remove slider switch from bottom
+- Ease the internals out of the body - they will all come out - be careful at the top as the pcb is there. be careful ~1/4 up from the bottom as the LIon cell is there. 
+- Optionally pop off of screen and button from the PCB
+- Remove microphone from plastic base
 - Cut heating element wires
-- Remove from juice tank
+- Remove from juice tank, discard juice tank
+- Remove padding from ends of cell
 
 Internals
 - 3.7V 850mAh R17350D (17x35mm) - 3.15Wh
-- Microphone
-- CH6057 charge controller
+- Microphone - 3 wire
+- CH6057 charge controller IC
 - USBC port
-- sliders switch
+- sliders switch - SP4T? - does not isolate usb or cell
 - TM52F1376 MCU
 - Button
-- LCD
+- Colour LCD with back light
 - 3x heating elements
 
 USB
