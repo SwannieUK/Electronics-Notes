@@ -23,4 +23,4 @@ USB
 - Not standard
 - SWDIO and SWCLK connected to pins
 - IO and CLK match with D and C on 4pin header VDCG
-- D and C match to pin 28 and 27 on MCU: optional UART SDA/SCL
+- D and C match to pin 28 and 27 on MCU: optional UART TXD/RXD
