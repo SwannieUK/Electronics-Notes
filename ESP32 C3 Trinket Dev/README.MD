@@ -11,10 +11,11 @@ Example App: https://github.com/Spotpear/ESP32C3_1.44inch
 
 - No on/off switch - identify the best location to add a small SPST switch - on battery lead, or on the board - likely the lead.
 - Backlight power - very bright - need to understand the schematics
-  - Looks like the driver is ST7735 ?
-  - Looks like Pin18 / IO11 goes to LED backlight - should be potential to PWM it.
+  - From schmatic: Looks like the driver is ST7735 ?
+  - From schmatic: Looks like Pin18 / IO11 goes to LED backlight - should be potential to PWM it.
+    - Need to test the trace
 - Single Core, therefore limited in things like presenting extra USB-HID.
-  - Potentially pair with a RP2040, or similar?
+  - A RP2040 can do USB HID emulation - could use ESP USB-C and MITM to the RP2040 USB-C.
 
 ## Software
 
