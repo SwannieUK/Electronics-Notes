@@ -37,3 +37,4 @@ USB
 - IO and CLK match with D and C on 4pin header VDCG
 - D and C match to pin 28 and 27 on MCU: likely PSDA and PSCL for vendor programmer, optional UART TXD/RXD
   - Attempted to find I2C address on these pins, but doesn't appear to be found
+  - Try basic TTL? OpenOCD or JTAGenum? I2C enum?
